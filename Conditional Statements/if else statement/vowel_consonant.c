@@ -10,4 +10,32 @@ int main(){
     }else{
         printf("consonant");
     }
+
+    printf("\n");
+
+
+
+    //long version of if else only
+
+    if(ch=='a'){
+        printf("vowel");
+    }else{
+        if(ch=='e'){
+            printf("vowel");
+        }else{
+            if(ch=='i'){
+                printf("vowel");
+            }else{
+                if(ch=='o'){
+                    printf("vowel");
+                }else{
+                    if(ch=='u'){
+                        printf("vowel");
+                    }else{
+                        printf("consonant");
+                    }
+                }
+            }
+        }
+    }
 }
